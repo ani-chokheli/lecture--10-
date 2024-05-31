@@ -1,0 +1,180 @@
+.header-img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+
+header{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between
+    
+}
+nav{
+    width: 500px;
+}
+.header-nav  {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    color:  #636060;
+    
+}
+.Greece{
+    width: 1350px;
+    height: 606px;
+    background-image: url(../image/Rectangle\ 1\ \(3\).svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Greece1 h1{
+    font-family: Helvetica;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 90.84px;
+    text-align: left;
+    color: white;
+
+    
+}
+.Greece1 p{
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    text-align: left;
+    color: white;
+    display: flex;
+    justify-content: center;
+  
+}
+.Discover{
+    width:235px ;
+    margin-right: 35px;
+
+    
+}
+.Discover p{
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.55px;
+    text-align: left;
+    color:  #636060;
+    
+
+
+}
+.burger-icon{
+    display: none;
+}
+.Discover h3{
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.2px;
+    text-align: left;
+
+}
+.Discover span{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color: #636060;
+    
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 50px;
+}
+section div{
+    width: 286px;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+.section1{
+    display: flex;
+    gap: 40px;
+   
+}
+.section2{
+    display: flex;
+    gap: 40px;
+    
+}
+.Discover-card{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-bottom: 150px;
+  
+}
+.cards h4{
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    text-align: left;
+    margin-top: 15px;
+    color: #343232;
+    
+}
+.cards p{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: left;
+    color: #636060;
+
+    
+}
+@media  (max-width: 768px){
+   .header-nav li{
+    width: 180px;
+    text-align: center;
+   }
+   nav{
+    width: 450px;
+   }
+   .Greece{
+    width: 768px;
+    height: 600px;
+    background-image: url(../image/Rectangle\ 1\ \(3\).svg);
+    background-size: cover;
+}
+.Discover{
+    width:100px;
+
+  
+}
+}
+
+@media (max-width:600px ){
+    nav{
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+    }
+    .Greece{
+        width: 600px;
+        height: 550px;
+        background-image: url(../image/Rectangle\ 1\ \(3\).svg);
+        background-size: cover;
+    }
+    .Greece1 h1{
+        text-align: center;
+    }
+}
